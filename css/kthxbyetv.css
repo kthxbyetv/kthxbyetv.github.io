@@ -76,10 +76,10 @@ body.hero {
 }
 .panel-invert > .panel-heading a, .panel-invert > .panel-heading a:hover {
   text-decoration: none;
-  color: #999;
+  color: #FFF;
 }
 .panel-invert > .panel-heading a:hover {
-  color: #FFF;
+  color: #ccc;
 }
 .panel-invert > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #222;
