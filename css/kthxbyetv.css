@@ -49,6 +49,10 @@ body.hero {
 	font-size: 24pt;
 }
 
+.block {
+  display: inline-block;
+}
+
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
