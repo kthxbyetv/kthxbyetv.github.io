@@ -8,27 +8,32 @@ body.padfix {
 }
 
 body.hero {
-	background-image: url("../img/home-hero.jpg");
+	background-image: url("../img/home-hero-1280.jpg");
 	background-size: cover;
 }
-@media (max-width: 768px) {
+@media (min-width: 960px) {
   body.hero {
-    background-image: url("../img/home-hero.jpg");
+    background-image: url("../img/home-hero-960.jpg");
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   body.hero {
-    background-image: url("../img/home-hero.jpg");
+    background-image: url("../img/home-hero-1280.jpg");
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1600px) {
   body.hero {
-    background-image: url("../img/home-hero.jpg");
+    background-image: url("../img/home-hero-1600.jpg");
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   body.hero {
-    background-image: url("../img/home-hero.jpg");
+    background-image: url("../img/home-hero-1920.jpg");
+  }
+}
+@media (min-width: 2560px) {
+  body.hero {
+    background-image: url("../img/home-hero-2560.jpg");
   }
 }
 
