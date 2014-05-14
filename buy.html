@@ -45,23 +45,29 @@
 			</div>
 			<ul class="list-group">
 				<li class="list-group-item text-center">
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-inline" role="form">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="NEEMS5CSTY4GG">
 						<input type="hidden" name="on0" value="Livraison">
 
-						<select name="os0">
-							<option value="Lettre suivie">Lettre suivie 13,99€</option>
-							<option value="Mondial Relay">Mondial Relay 14,49€</option>
-							<option value="Colissimo Emballage">Colissimo Emballage 18,49€</option>
-						</select>
-						<input type="submit" value="Acheter" class="btn btn-success">
-						<!--<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">-->
+						<div class="form-group">
+							<select name="os0" class="form-control">
+								<option value="Lettre suivie">(play) - livraison en lettre suivie - 13,99€</option>
+								<option value="Mondial Relay">(play) - livraison par Mondial Relay - 14,49€</option>
+								<option value="Colissimo Emballage">(play) - livraison par Colissimo - 18,49€</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Acheter" class="btn btn-success form-control">
+						</div>
+					</form>
 				</li>
 			</ul>
 		</div>
 
-		<p><small>Frais de ports : 3,50€ (lettre suivie), 4€ (Mondial Relay), 8€ (Colissimo Emballage).<br>Les frais de ports indiqués sont valable pour la France métropolitaine ; si vous souhaitez acheter kthxbyetv depuis l'étranger, contactez-nous.</small></p>
+		<p><small>Sauf mention du moyen de livraison, les prix sont exprimés hors frais de livraison. Les prix affichés sont TTC.</small></p>
+
+		<p><small>Frais de ports : 3,50€ (lettre suivie), 4€ (Mondial Relay), 8€ (Colissimo Emballage).<br>Les frais de ports indiqués sont valable pour la France métropolitaine ; si vous souhaitez acheter kthxbyetv depuis l'étranger, contactez-nous.<br>Si vous choisissez la livraison par Mondial Relay, pensez à nous communiquer le point relai auquel vous souhaitez vous faire livrer.</small></p>
 	</div>
 
 	<script src="js/jquery.min.js"></script>
