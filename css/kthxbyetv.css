@@ -67,19 +67,29 @@ body.hero {
 
 /* Inverted panel */
 .panel-invert {
-  border-color: #E7E7E7;
+  border-color: #222;
 }
 .panel-invert > .panel-heading {
-  color: #555;
-  background-color: #E7E7E7;
-  border-color: #E7E7E7;
+  color: #333;
+  background-color: #222;
+  border-color: #222;
+}
+.panel-invert > .panel-heading a, .panel-invert > .panel-heading a:hover {
+  text-decoration: none;
+  color: #999;
+}
+.panel-invert > .panel-heading a:hover {
+  color: #FFF;
 }
 .panel-invert > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #E7E7E7;
+  border-top-color: #222;
 }
 .panel-invert > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #E7E7E7;
+  border-bottom-color: #222;
 }
+/*.panel-invert > .list-group .list-group-item {
+  border-color: #222;
+}*/
 
 .product.panel > .panel-heading {
 	font-size: 24pt;
