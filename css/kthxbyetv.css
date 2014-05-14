@@ -11,6 +11,26 @@ body.hero {
 	background-image: url("../img/home-hero.jpg");
 	background-size: cover;
 }
+@media (max-width: 768px) {
+  body.hero {
+    background-image: url("../img/home-hero.jpg");
+  }
+}
+@media (min-width: 768px) {
+  body.hero {
+    background-image: url("../img/home-hero.jpg");
+  }
+}
+@media (min-width: 992px) {
+  body.hero {
+    background-image: url("../img/home-hero.jpg");
+  }
+}
+@media (min-width: 1200px) {
+  body.hero {
+    background-image: url("../img/home-hero.jpg");
+  }
+}
 
 .site-wrapper {
   display: table;
