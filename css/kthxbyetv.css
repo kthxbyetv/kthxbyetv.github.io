@@ -45,6 +45,22 @@ body.hero {
 	font-size: 8em;
 }
 
+/* Inverted panel */
+.panel-invert {
+  border-color: #E7E7E7;
+}
+.panel-invert > .panel-heading {
+  color: #555;
+  background-color: #E7E7E7;
+  border-color: #E7E7E7;
+}
+.panel-invert > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #E7E7E7;
+}
+.panel-invert > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #E7E7E7;
+}
+
 .product.panel > .panel-heading {
 	font-size: 24pt;
 }
